@@ -1,0 +1,8 @@
+{
+  "name": "birthdayApi",
+  "version": "1.0.0",
+  "description": "This is an api to handle birthdays",
+  "main": "app.js",
+  "author": "Tygore",
+  "license": "MIT"
+}
