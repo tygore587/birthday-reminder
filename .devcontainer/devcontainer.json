@@ -4,22 +4,19 @@
 	"name": "Default Linux Universal",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers-contrib/features/nestjs-cli:2" : {
-			"version": "latest"
-		}
-	},
+	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "git config --global --add safe.directory /workspaces/core"
-	//"postStartCommand": "git config --global --add safe.directory /workspaces/birthday-reminder",
-	//"postAttachCommand": "git config --global --add safe.directory /workspaces/birthday-reminder",
-	//"onCreateCommand": "git config --global --add safe.directory /workspaces/birthday-reminder"
+	// "postCreateCommand": "uname -a",
+
 	// Configure tool-specific properties.
 	// "customizations": {},
 
